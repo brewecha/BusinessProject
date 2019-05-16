@@ -45,42 +45,75 @@
     
       </div>
 
-<!-- The form -->
+      <!-- The form -->
 <form class="example" action="action_page.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-
-      
-        <!-- HOME PAGE STARTS -->
-
-      <div class='jumbotron text-center'>
-        <h1>Big Deals</h1>
-      </div>
-      
-      <img src="women.jpg" width='24%' height='auto' class="img-rounded" alt="women">
-      <img src="children.jpg" width='24%' height='auto' class="img-rounded" alt="kids">
-      <img src="men.jpg" width='24%' height='auto' class="img-rounded" alt="men">
-      <img src="equip.jpg" width='24%' height='auto' class="img-rounded" alt="equipment">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
 
       <br>
-      <hr>
-      <h1>Recommended For You</h1>
+      <br>
+      <br>
+      <br>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maria Tello</td>
+            <td>CEO</td>
+            <td>1-800-555-4380</td>
+            <td>mariatello@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Lisa Davis</td>
+            <td>President</td>
+            <td>317-348-2378</td>
+            <td>lisadavis@gmail.com</td>
+          </tr>
+          <tr>
+            <td>July Dooley</td>
+            <td>Assistant</td>
+            <td>483-231-0458</td>
+            <td>dooleyjolly@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Niall Fraser</td>
+            <td>Assistant</td>
+            <td>234-548-0576</td>
+            <td>niallfraser@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      <div class="row">
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          ...
-        </div>
 
-  
-  
+    <!--JUST TESTING IF THIS WORKS-->
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Chat</h1>
+      
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+      
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+
+   
+    
+
+
+
+
     </body>
   </html>
