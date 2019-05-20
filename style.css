@@ -136,3 +136,28 @@ h1{
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+.mapouter{
+  position:relative;
+  text-align:center;
+  height:431px;
+  width:600px;
+  padding-left: 30%
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:431px;
+  width:600px;
+}
+
+.row{
+  text-align: center;
+
+}
+
+.col-sm-4{
+  font-size: 100%;
+
+}
