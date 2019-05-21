@@ -19,12 +19,12 @@
             Shop Departments <span class="caret"></span></button>
 
             <ul class="dropdown-menu" role="menu">
-              <li><a href="women.html">Womens</a></li>
-              <li><a href="men.html">Mens</a></li>
-              <li><a href="kids.html">Childrens</a></li>
-              <li><a href="workout.html">Workout</a></li>
-              <li><a href="sport.html">Sport</a></li>
-            </ul>
+                <li><a href="women.html">Womens</a></li>
+                <li><a href="men.html">Mens</a></li>
+                <li><a href="kids.html">Childrens</a></li>
+                <li><a href="workout.html">Workout</a></li>
+                <li><a href="sport.html">Sport</a></li>
+              </ul>
 
             <a href="deals.html"><button type="button" class="btn btn-info"> Deals</button></a>
             <a href='contact.html'><button type="button" class="btn btn-info">Contact</button></a>
@@ -51,36 +51,40 @@
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
 
-      
-        <!-- HOME PAGE STARTS -->
+<br>
+<br>
+<br>
 
-      <div class='jumbotron text-center'>
-        <h1>Big Deals</h1>
-      </div>
-      
-      <img src="women.jpg" width='24%' height='auto' class="img-rounded" alt="women">
-      <img src="children.jpg" width='24%' height='auto' class="img-rounded" alt="kids">
-      <img src="men.jpg" width='24%' height='auto' class="img-rounded" alt="men">
-      <img src="equip.jpg" width='24%' height='auto' class="img-rounded" alt="equipment">
+<div id='images' class='carousel slide' data-ride='carousel'>
 
-      <br>
-      <hr>
-      <h1>Recommended For You</h1>
+    <!--Bottom Indicators-->
 
-      <div class="row">
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          ...
-        </div>
+    <ul class='carousel-indicators'>
+        <li data-target='#images' data-slide-to='0' class=active></li>
+        <li data-target='#images' data-slide-to='1'></li>
+        <li data-target='#images' data-slide-to='2'></li>
+        <li data-target='#images' data-slide-to='3'></li>
+        <li data-target='#images' data-slide-to='4'></li>
+    </ul>
 
-  
-  
+    <!--Carousel Content-->
+
+    <div class='carousel-inner'>
+
+        <div class='carousel-item active'><img src='women1.png' width='100%' height='auto' alt='newyear'></div>
+        <div class='carousel-item'><img src='women2.png' width='100%' height='auto' alt='valentine'></div>
+        <div class='carousel-item'><img src='women3.png' width='100%' height='auto' alt='womensappreciation'></div>
+        <div class='carousel-item'><img src='women4.png' width='100%' height='auto' alt='easter'></div>
+        <div class='carousel-item'><img src='women5.png' width='100%' height='auto' alt='cincodemayo'></div>
+    </div>
+
+    <a class='carousel-control-prev' href='#images' data-slide="prev">
+        <span class='fas fa-angle-left'></span>
+    </a>
+
+    <a class='carousel-control-next' href='#images' data-slide="next">
+        <span class='fas fa-angle-right'></span>
+    </a>
+
     </body>
   </html>
