@@ -11,12 +11,12 @@
 
   text-decoration: none;
   color: white;
-  background-color: teal;
+  background-color: rgb(177, 7, 7);
 }
 
 .dropdown-menu li:hover{
   color: white;
-  background-color: teal;
+  background-color: rgb(177, 7, 7);
 }
 
 * {
