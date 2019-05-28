@@ -161,3 +161,14 @@ h1{
   font-size: 100%;
 
 }
+
+table, th, td {
+  border: 1px solid black;
+  line-height: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
