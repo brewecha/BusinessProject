@@ -177,8 +177,7 @@ th, td {
 
 html *
 {
-   font-size: auto !important;
-   font-family: 'Oswald', sans-serif !important;
+   font-family: 'Oswald', sans-serif;
 }
 
 
