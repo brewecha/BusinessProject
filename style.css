@@ -178,11 +178,16 @@ th, td {
 html *
 {
    font-family: 'Oswald', sans-serif;
+   
 }
 
 .material-icons
 { 
   font-family: 'Material Icons' !important; 
+}
+
+.img-rounded{
+  border-radius: 10px;
 }
 
 
