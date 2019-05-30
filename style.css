@@ -173,3 +173,13 @@ th, td {
 .clearfix {
   overflow: auto;
 }
+
+
+html *
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: 'Oswald', sans-serif !important;
+}
+
+
